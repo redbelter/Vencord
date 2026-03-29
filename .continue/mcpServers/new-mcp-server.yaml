@@ -1,0 +1,9 @@
+name: Git mcp
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: Git mcp
+    command: uvx
+    args:
+      - mcp-server-git
+    env: {}
